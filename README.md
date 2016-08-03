@@ -1,5 +1,8 @@
-# generator-teonet-wk [![NPM version][npm-image]][npm-url] 
-> Teonet node-webkit application generator
+# Teonet node-webkit application generator [![NPM version][npm-image]][npm-url] 
+
+Yeoman generator to create new Teonet server node-webkit application. The 
+Teonet Server application can execute under Linux or Mac OS only. This readme 
+file shows terminal commands for Debian, Ubuntu or Linux Mint.
 
 ## Installation
 
@@ -9,6 +12,40 @@ First, install [Yeoman](http://yeoman.io) and generator-teonet-wk using [npm](ht
 npm install -g yo
 npm install -g generator-teonet-wk
 ```
+
+### Install teonet library
+
+### Ubuntu
+
+    http://repo.ksproject.org/ubuntu/
+
+#### Add repository
+
+Add repository key:  
+
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8CC88F3BE7D6113C
+    
+Add repository:    
+
+    sudo apt-get install -y software-properties-common
+    sudo add-apt-repository "deb http://repo.ksproject.org/ubuntu/ teonet main"
+    
+or add the following line to your /etc/apt/sources.list:  
+
+    deb http://repo.ksproject.org/ubuntu/ teonet main
+    
+Update repositories database:    
+    
+    sudo apt-get update
+
+#### Install library
+
+    sudo apt-get install -y libteonet-dev
+
+#### Check installation
+
+    teovpn -?
+
 
 Then generate your new project:
 
