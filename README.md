@@ -1,13 +1,13 @@
-# generator-teowk [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-teonet-wk [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Teonet node-webkit application generator
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-teowk using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-teonet-wk using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-teowk
+npm install -g generator-teonet-wk
 ```
 
 Then generate your new project:
@@ -28,11 +28,11 @@ yo teowk
 Apache-2.0 © [Kirill Scherba](https://gitlab.ksproject.org)
 
 
-[npm-image]: https://badge.fury.io/js/generator-teowk.svg
-[npm-url]: https://npmjs.org/package/generator-teowk
-[travis-image]: https://travis-ci.org//generator-teowk.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-teowk
-[daviddm-image]: https://david-dm.org//generator-teowk.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-teowk
-[coveralls-image]: https://coveralls.io/repos//generator-teowk/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-teowk
+[npm-image]: https://badge.fury.io/js/generator-teonet-wk.svg
+[npm-url]: https://npmjs.org/package/generator-teonet-wk
+[travis-image]: https://travis-ci.org//generator-teonet-wk.svg?branch=master
+[travis-url]: https://travis-ci.org//generator-teonet-wk
+[daviddm-image]: https://david-dm.org//generator-teonet-wk.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-teonet-wk
+[coveralls-image]: https://coveralls.io/repos//generator-teonet-wk/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-teonet-wk
