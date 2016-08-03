@@ -1,4 +1,4 @@
-# generator-teonet-wk [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-teonet-wk [![NPM version][npm-image]][npm-url] 
 > Teonet node-webkit application generator
 
 ## Installation
@@ -13,7 +13,7 @@ npm install -g generator-teonet-wk
 Then generate your new project:
 
 ```bash
-yo teowk
+yo teonet-wk
 ```
 
 ## Getting To Know Yeoman

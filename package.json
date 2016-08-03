@@ -50,7 +50,7 @@
   "repository": {
     "type": "git",
     "url": "https://gitlab.ksproject.org/teonet/generator-teonet-wk.git"
-  }
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
