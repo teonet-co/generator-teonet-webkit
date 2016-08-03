@@ -7,7 +7,7 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the extraordinary ' + chalk.red('TEONET-webkit-APPLICATION') + ' generator!'
+      'Welcome to the extraordinary ' + chalk.red('TEONET-WEBKIT-APPLICATION') + ' generator!'
     ));
 
     var prompts = [{
