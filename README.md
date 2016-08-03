@@ -6,11 +6,11 @@ file shows terminal commands for Debian, Ubuntu or Linux Mint.
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-teonet-wk using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-teonet-webkit using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-teonet-wk
+npm install -g generator-teonet-webkit
 ```
 
 ### Install teonet library
@@ -47,10 +47,10 @@ Update repositories database:
     teovpn -?
 
 
-## Generate your new teonet-wk project:
+## Generate your new teonet-webkit project:
 
 ```bash
-yo teonet-wk
+yo teonet-webkit
 ```
 
 <br>
@@ -67,11 +67,11 @@ yo teonet-wk
 Apache-2.0 © [Kirill Scherba](https://gitlab.ksproject.org)
 
 
-[npm-image]: https://badge.fury.io/js/generator-teonet-wk.svg
-[npm-url]: https://npmjs.org/package/generator-teonet-wk
-[travis-image]: https://travis-ci.org//generator-teonet-wk.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-teonet-wk
-[daviddm-image]: https://david-dm.org//generator-teonet-wk.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-teonet-wk
-[coveralls-image]: https://coveralls.io/repos//generator-teonet-wk/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-teonet-wk
+[npm-image]: https://badge.fury.io/js/generator-teonet-webkit.svg
+[npm-url]: https://npmjs.org/package/generator-teonet-webkit
+[travis-image]: https://travis-ci.org//generator-teonet-webkit.svg?branch=master
+[travis-url]: https://travis-ci.org//generator-teonet-webkit
+[daviddm-image]: https://david-dm.org//generator-teonet-webkit.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-teonet-webkit
+[coveralls-image]: https://coveralls.io/repos//generator-teonet-webkit/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-teonet-webkit

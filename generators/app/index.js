@@ -7,7 +7,7 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the extraordinary ' + chalk.red('generator-teonet-wk') + ' generator!'
+      'Welcome to the extraordinary ' + chalk.red('TEONET-webkit-APPLICATION') + ' generator!'
     ));
 
     var prompts = [{
@@ -24,13 +24,17 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
+//    this.fs.copy(
+//      this.templatePath('dummyfile.txt'),
+//      this.destinationPath('dummyfile.txt')
+//    );
     this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+      this.templatePath('./'),
+      this.destinationPath('./')
     );
   },
 
   install: function () {
-    this.installDependencies();
+    this.installDependencies({bower: false});
   }
 });

@@ -1,8 +1,8 @@
 {
-  "name": "generator-teonet-wk",
+  "name": "generator-teonet-webkit",
   "version": "0.0.1",
   "description": "Teonet node-webkit application generator",
-  "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-wk",
+  "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit",
   "author": {
     "name": "Kirill Scherba",
     "email": "kirill@scherba.ru",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.ksproject.org/teonet/generator-teonet-wk.git"
+    "url": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit.git"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
