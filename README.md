@@ -47,11 +47,13 @@ Update repositories database:
     teovpn -?
 
 
-Then generate your new project:
+## Generate your new teonet-wk project:
 
 ```bash
 yo teonet-wk
 ```
+
+<br>
 
 ## Getting To Know Yeoman
 
