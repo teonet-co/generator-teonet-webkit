@@ -47,7 +47,7 @@ grunt build-nwjs
 ## Run your webkit application executable file
 
 ```bash
-build-nwjs/teo-nw/linux64/teo-nw --enable-logging=stderr teo-nw teo-nw-app
+build-nwjs/teo-nw/linux64/APPNAME --enable-logging=stderr APPNAME teo-APPNAME
 ```
 
 <br>
