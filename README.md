@@ -35,7 +35,7 @@ grunt
 ## Run you application with [NWJS](http://nwjs.io/) application
 
 ```bash
-nw dist --enable-logging=stderr teo-nw teo-nw-app
+nw dist --enable-logging=stderr APPNAME teo-APPNAME
 ```
 
 ## Build your webkit application
