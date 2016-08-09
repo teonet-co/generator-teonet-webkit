@@ -6,7 +6,9 @@ file shows terminal commands for Debian, Ubuntu or Linux Mint.
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-teonet-webkit using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io), generator-teonet-webkit using [npm](https://www.npmjs.com/) 
+and [NWJS](http://nwjs.io/) 
+(we assume you have pre-installed [NodeJS and Build Essential](https://www.npmjs.com/package/generator-teonet-node#dependences)).
 
 ```bash
 npm install -g yo
@@ -15,36 +17,7 @@ npm install -g generator-teonet-webkit
 
 ### Install teonet library
 
-### Ubuntu
-
-    http://repo.ksproject.org/ubuntu/
-
-#### Add repository
-
-Add repository key:  
-
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8CC88F3BE7D6113C
-    
-Add repository:    
-
-    sudo apt-get install -y software-properties-common
-    sudo add-apt-repository "deb http://repo.ksproject.org/ubuntu/ teonet main"
-    
-or add the following line to your /etc/apt/sources.list:  
-
-    deb http://repo.ksproject.org/ubuntu/ teonet main
-    
-Update repositories database:    
-    
-    sudo apt-get update
-
-#### Install library
-
-    sudo apt-get install -y libteonet-dev
-
-#### Check installation
-
-    teovpn -?
+https://www.npmjs.com/package/generator-teonet#install-teonet-library
 
 
 ## Generate your new teonet-webkit project:
@@ -53,7 +26,57 @@ Update repositories database:
 yo teonet-webkit
 ```
 
+## Compile your application with grunt
+
+```bash
+grunt
+```
+
+## Run you application with `nw` application
+
+```bash
+nw dist --enable-logging=stderr teo-nw teo-nw-app
+```
+
+## Build your webkit application
+
+```bash
+grunt build-nwjs
+```
+
+## Run your webkit application executable file
+
+```bash
+build-nwjs/teo-nw/linux64/teo-nw --enable-logging=stderr teo-nw teo-nw-app
+```
+
 <br>
+
+## Developer Notes
+
+### Some Teonet documentation
+  
+Teonet developer documentation:  
+http://repo.ksproject.org/docs/teonet/
+  
+Teonet events:  
+http://repo.ksproject.org/docs/teonet/ev__mgr_8h.html#ad7b9bff24cb809ad64c305b3ec3a21fe
+
+
+#### Publish project to NPM
+
+If you haven't already set your NPM author info, now you should:
+
+    npm set init.author.name "Your Name"
+    npm set init.author.email "you@example.com"
+    npm set init.author.url "http://yourblog.com"
+    
+    npm adduser
+
+Publish project to NPM:
+
+    npm publish ./
+
 
 ## Getting To Know Yeoman
 
