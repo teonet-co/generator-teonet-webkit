@@ -20,7 +20,7 @@ npm install -g generator-teonet-webkit
 https://www.npmjs.com/package/generator-teonet#install-teonet-library
 
 
-## Generate your new teonet-webkit project:
+## Generate your new teonet-webkit project
 
 ```bash
 yo teonet-webkit
