@@ -32,7 +32,7 @@ yo teonet-webkit
 grunt
 ```
 
-## Run you application with `nw` application
+## Run you application with [NWJS](http://nwjs.io/) application
 
 ```bash
 nw dist --enable-logging=stderr teo-nw teo-nw-app
