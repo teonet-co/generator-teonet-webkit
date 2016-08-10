@@ -4,7 +4,9 @@ Yeoman generator to create new Teonet server node-webkit application. The
 Teonet Server application can execute under Linux or Mac OS only. This readme 
 file shows terminal commands for Debian, Ubuntu or Linux Mint.
 
-## Installation
+## Usage
+
+### Installation
 
 First, install [Yeoman](http://yeoman.io), generator-teonet-webkit using [npm](https://www.npmjs.com/) 
 and [NWJS](http://nwjs.io/) 
@@ -15,40 +17,63 @@ npm install -g yo
 npm install -g generator-teonet-webkit
 ```
 
-### Install teonet library
+#### Install teonet library
 
 https://www.npmjs.com/package/generator-teonet#install-teonet-library
 
 
-## Generate your new teonet-webkit project
+### Generate your new teonet-webkit project
 
 ```bash
 yo teonet-webkit
 ```
 
-## Compile your application with grunt
+### Compile your application with grunt
 
 ```bash
 grunt
 ```
 
-## Run you application with [NWJS](http://nwjs.io/) application
+### Run you application with [NWJS](http://nwjs.io/) application
 
 ```bash
 nw dist --enable-logging=stderr APPNAME teo-APPNAME
 ```
 
-## Build your webkit application
+### Build your webkit application
 
 ```bash
 grunt build-nwjs
 ```
 
-## Run your webkit application executable file
+### Run your webkit application executable file
 
 ```bash
 build-nwjs/teo-nw/linux64/APPNAME --enable-logging=stderr APPNAME teo-APPNAME
 ```
+
+## Generators
+
+Available generators:
+
+ * teonet-webkit
+ * teonet-webkit:controller
+
+### App
+
+### Controller
+
+Generates a controller in app/scripts/controllers.
+
+Example:
+
+    yo teonet-webkit:controller user
+
+Produces `app/scripts/controllers/user.js`:
+
+    angular.module('myMod').controller('UserCtrl', function ($scope) {
+      // ...
+    });
 
 <br>
 
