@@ -54,6 +54,13 @@ build-nwjs/teo-nw/linux64/APPNAME --enable-logging=stderr APPNAME teo-APPNAME
 
 ## Developer Notes
 
+### Clone this project code
+
+This project uses git sumbmodule, so after cloning this project from git 
+execute next connand:
+
+    git submodule update --init
+
 ### Some Teonet documentation
   
 Teonet developer documentation:  
