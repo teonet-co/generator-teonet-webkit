@@ -2,7 +2,7 @@ Description:
     Creates a new Angular controller with teonet custom event loop
 
 Example:
-    yo teonet-webkit:controller Thing [--coffee]
+    yo teonet-webkit:controller ControllerName 
 
     This will create:
-        app/scripts/controllers/thing-ctrl.js
+        app/scripts/controllers/controllername.js
