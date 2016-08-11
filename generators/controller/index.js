@@ -1,5 +1,7 @@
+/* global teonet, $scope */
+
 'use strict';
-var util = require('../util');
+var util = require('util');
 var ScriptBase = require('../script-base');
 
 var Generator = module.exports = function Generator() {

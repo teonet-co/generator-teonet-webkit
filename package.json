@@ -1,6 +1,6 @@
 {
   "name": "generator-teonet-webkit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Teonet node-webkit application generator",
   "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit",
   "author": {
@@ -9,7 +9,8 @@
     "url": "https://gitlab.ksproject.org"
   },
   "files": [
-    "generators"
+    "generators/app",
+    "generators/router"
   ],
   "main": "generators/index.js",
   "keywords": [
@@ -28,7 +29,7 @@
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
-    "yeoman-assert": "^2.0.0",
+    "yeoman-assert": "^2.1.1",
     "eslint": "^3.1.1",
     "eslint-config-xo-space": "^0.14.0",
     "gulp": "^3.9.0",

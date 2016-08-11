@@ -106,7 +106,7 @@ module.exports = yeoman.Base.extend({
     );
     
     this.fs.copyTpl(
-      this.templatePath('./app/package.json'),
+      this.templatePath('./app/_package.json'),
       this.destinationPath('./app/package.json'), {
         name: this.props.name,
         version: this.props.version,
