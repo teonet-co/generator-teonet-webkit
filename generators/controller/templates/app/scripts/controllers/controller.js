@@ -10,7 +10,7 @@
  */
 angular.module('teonetWebkitApp')
 
-  .controller('<%= name_capitalize %>Ctrl', ['$scope', 'teonet', function ($scope, teonet) {
+  .controller('<%= name_capitalize %>Ctrl', function ($scope, teonet) {
 
     this.awesomeThings = [
       'HTML5 Boilerplate',
@@ -89,4 +89,4 @@ angular.module('teonetWebkitApp')
         console.log('<%= name_capitalize %>Ctrl: Start processing teonet controller');
     }); 
 
-  }]);
+  });

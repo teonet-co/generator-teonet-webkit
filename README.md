@@ -56,10 +56,16 @@ build-nwjs/teo-nw/linux64/APPNAME --enable-logging=stderr APPNAME teo-APPNAME
 
 Available generators:
 
- * teonet-webkit
- * teonet-webkit:controller
+ * [teonet-webkit](#app) (aka [teonet-webkit:app](#app))
+ * [teonet-webkit:controller](#controller)
 
 ### App
+
+Create new Teonet server node-webkit application.
+
+Example:
+
+    yo teonet-webkit
 
 ### Controller
 
@@ -71,7 +77,7 @@ Example:
 
 Produces `app/scripts/controllers/user.js`:
 
-    angular.module('myMod').controller('UserCtrl', function ($scope) {
+    angular.module('myMod').controller('UserCtrl', function ($scope, teonet) {
       // ...
     });
 
@@ -95,7 +101,7 @@ Teonet events:
 http://repo.ksproject.org/docs/teonet/ev__mgr_8h.html#ad7b9bff24cb809ad64c305b3ec3a21fe
 
 
-#### Publish project to NPM
+### Publish project to NPM
 
 If you haven't already set your NPM author info, now you should:
 
