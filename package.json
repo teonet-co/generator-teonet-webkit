@@ -1,6 +1,6 @@
 {
   "name": "generator-teonet-webkit",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Teonet node-webkit application generator",
   "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit",
   "author": {
