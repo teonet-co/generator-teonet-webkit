@@ -1,6 +1,6 @@
 {
   "name": "generator-teonet-webkit",
-  "version": "0.0.9",
+  "version": "0.0.12",
   "description": "Teonet node-webkit application generator",
   "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit",
   "author": {
@@ -10,7 +10,8 @@
   },
   "files": [
     "generators/app",
-    "generators/router"
+    "generators/controller",
+    "generators/util.js"
   ],
   "main": "generators/index.js",
   "keywords": [

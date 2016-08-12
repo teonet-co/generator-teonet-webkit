@@ -18,7 +18,7 @@ module.exports = yeoman.Base.extend({
             file: fullPath,
             needle: '<!-- endbuild -->',
             splicable: [
-              '<script src="scripts/' + script.toLowerCase().replace(/\\/g, '/') + '.js"></script>'
+              '<script src="scripts/controllers/' + script.toLowerCase().replace(/\\/g, '/') + '.js"></script>'
             ]
           });
         } catch (e) {
