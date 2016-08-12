@@ -73,10 +73,7 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
-//    this.fs.copy(
-//      this.templatePath('dummyfile.txt'),
-//      this.destinationPath('dummyfile.txt')
-//    );
+      
     this.fs.copy(
       this.templatePath('./'),
       this.destinationPath('./')
@@ -131,6 +128,13 @@ module.exports = yeoman.Base.extend({
         license: this.props.license
       }
     );      
+    
+    this.fs.copyTpl(
+      this.templatePath('./nbproject/project.xml'),
+      this.destinationPath('./nbproject/project.xml'), {
+        name: this.props.name
+      }
+    ); 
       
   },
 

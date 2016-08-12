@@ -1,0 +1,25 @@
+/* global expect */
+
+'use strict';
+
+describe('Controller: <%= name_capitalize %>Ctrl', function () {
+
+  // load the controller's module
+  beforeEach(module('teonetWebkitApp'));
+
+  var <%= name_capitalize %>Ctrl,
+    scope;
+
+  // Initialize the controller and a mock scope
+  beforeEach(inject(function ($controller, $rootScope) {
+    scope = $rootScope.$new();
+    <%= name_capitalize %>Ctrl = $controller('<%= name_capitalize %>Ctrl', {
+      $scope: scope
+      // place here mocked dependencies
+    });
+  }));
+
+  it('should attach a list of awesomeThings to the scope', function () {
+    expect(<%= name_capitalize %>Ctrl.awesomeThings.length).toBe(3);
+  });
+});

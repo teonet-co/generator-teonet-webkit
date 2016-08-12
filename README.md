@@ -87,8 +87,8 @@ Produces `app/scripts/controllers/user.js`:
 
 ### Clone this project code
 
-This project uses git sumbmodule, so after cloning this project from git 
-execute next connand:
+This project uses git submodule, so after cloning this project from git 
+execute next command:
 
     git submodule update --init
 

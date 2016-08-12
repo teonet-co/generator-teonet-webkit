@@ -1,4 +1,3 @@
-/* global teonet, $scope */
 'use strict';
 
 /**
@@ -17,16 +16,16 @@ angular.module('teonetWebkitApp')
       'AngularJS',
       'Karma'
     ];
-    
+
     // This is Teonet based controller, exit if teonet undefined
     if(!teonet || teonet.notLoaded) { return; }
 
 
     // \todo write yor code here and inside the eventCb function
-  
-  
+
+
     // ------------------------------------------------------------------------
-    
+
     /**
      * Teonet event callback
      *
@@ -45,48 +44,48 @@ angular.module('teonetWebkitApp')
     function eventCb(ke, ev, data) { //, dataLen, userData) {
 
         console.log('<%= name_capitalize %>Ctrl: Custom event callback called');
-        
+
         var rd;
 
         switch (ev) {
-            
+
             // EV_K_RECEIVED #5 This host Received a data
             case teonet.ev.EV_K_RECEIVED:
-                
+
                 rd = new teonet.packetData(data);
 
                 // Command
                 switch (rd.cmd) {
-                    
+
                     // Process Echo answer #66 command
                     case teonet.api.CMD_ECHO_ANSWER:
                         console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
                         break;
-                    
+
                     // Process User #129 command
                     case teonet.api.CMD_USER:
                         console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
                         break;
 
                     default: break;
-                } 
+                }
                 break;
-                
-            // EV_A_INTERVAL #27 Angular interval event happened    
+
+            // EV_A_INTERVAL #27 Angular interval event happened
             case teonet.ev.EV_A_INTERVAL:
-                
+
                 console.log('<%= name_capitalize %>Ctrl: Interval event received');
                 break;
-            
+
             default: break;
         }
-        
+
         return 0;
     }
 
     // Start processing teonet controller
     teonet.processing($scope, eventCb, 1000, function() {
         console.log('<%= name_capitalize %>Ctrl: Start processing teonet controller');
-    }); 
+    });
 
   });
