@@ -43,7 +43,7 @@ angular.module('teonetWebkitApp')
      */
     function eventCb(ke, ev, data) { //, dataLen, userData) {
 
-        console.log('<%= name_capitalize %>Ctrl: Custom event callback called');
+        //console.log('<%= name_capitalize %>Ctrl: Custom event callback called');
 
         var rd;
 
@@ -59,12 +59,12 @@ angular.module('teonetWebkitApp')
 
                     // Process Echo answer #66 command
                     case teonet.api.CMD_ECHO_ANSWER:
-                        console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
+                        //console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
                         break;
 
                     // Process User #129 command
                     case teonet.api.CMD_USER:
-                        console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
+                        //console.log('<%= name_capitalize %>Ctrl: Echo answer command event received');
                         break;
 
                     default: break;
@@ -74,7 +74,7 @@ angular.module('teonetWebkitApp')
             // EV_A_INTERVAL #27 Angular interval event happened
             case teonet.ev.EV_A_INTERVAL:
 
-                console.log('<%= name_capitalize %>Ctrl: Interval event received');
+                //console.log('<%= name_capitalize %>Ctrl: Interval event received');
                 break;
 
             default: break;
@@ -85,7 +85,7 @@ angular.module('teonetWebkitApp')
 
     // Start processing teonet controller
     teonet.processing($scope, eventCb, 1000, function() {
-        console.log('<%= name_capitalize %>Ctrl: Start processing teonet controller');
+        //console.log('<%= name_capitalize %>Ctrl: Start processing teonet controller');
     });
 
   });
