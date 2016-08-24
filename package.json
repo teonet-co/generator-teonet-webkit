@@ -1,6 +1,6 @@
 {
   "name": "generator-teonet-webkit",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Teonet node-webkit application generator",
   "homepage": "https://gitlab.ksproject.org/teonet/generator-teonet-webkit",
   "author": {
@@ -42,7 +42,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-nsp": "^2.1.0",
     "gulp-coveralls": "^0.1.0",
-    "teonet": "^0.0.29"
+    "teonet": "^0.0.40"
   },
   "eslintConfig": {
     "extends": "xo-space",
